@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stylish Form Example</title>
     <style>
-        /* Style for the page background */
+        /* Apply a background image to the entire page */
         body {
-            background-image: url('background.jpg'); /* Replace with your background image URL */
+            background-image: url('your-background-image.jpg');
             background-size: cover;
+            background-position: center;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Ensure full viewport height */
         }
 
-        /* Style for the form container */
+        /* Create a container for the form */
         .form-container {
             background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
             border-radius: 10px;
